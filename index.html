@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="sticky">
+            <div class="left">Portfolio.
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home" class="active" style="--i:1">Home</a></li>
+                    <li><a href="#about" style="--i:2">About</a></li>
+                    <li><a href="#skills" style="--i:3">Skills</a></li>
+                    <li><a href="#projects" style="--i:4">Projects</a></li>
+                    <li><a href="#contact" style="--i:5">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- FIRST SECTION -->
+        <section class="firstSection" id="home">
+            <div class="leftSection ">
+                <p class="part-1">Hi, My name is </p><span class="purple" id="name">Priti Rathore</span>
+                <div class="part-2">and I am a passionate</div>
+
+                <span id="element"></span><br>
+                <a href="https://www.linkedin.com/in/priti-rathore-987683237"target="_blank"><i class="fa-brands fa-linkedin" style="color: #31bfc9;"></i></a>
+                <a href="https://github.com/priti-1227"target="_blank"><i class="fa-brands fa-github " style="color: #31bfc9;"></i></a><br>
+                <button><a href="./IMG/Resume.pdf.pdf" download="Priti-Resume">Download CV</a></button>
+            </div>
+            <div class="rightSection">
+                <div class="img vert-move"><img src="./IMG/astronuat.png" alt=""></div>
+            </div>
+            
+        </section>
+       
+       
+        <!-- SECOND SECTION -->
+        <section class="secondSection" id="about">
+            <!-- <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="underline"></div> -->
+           
+            <div class="sec2-1"></div>
+            
+            <div class="sec2-2">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et eius doloribus ducimus id quasi
+                    culpa officia? Amet eius suscipit ex aut.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid et eius doloribus ducimus id quasi
+                    culpa officia? Amet eius suscipit ex aut.</p>
+                
+            </div>
+        </section>
+        <!-- SKILLS-SECTION -->
+        <section class="skillSection" id="skills">
+
+            <!-- TECHNICAL SKILLS(RIGHT) -->
+            <div class="technicalSkills">
+                <div class="tech-heading">Technical Skills</div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="97">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>HTML/CSS</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="95">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>JavaScript</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="70">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>ReactJs</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="90">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>Java with DSA</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="80">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>NodeJs</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="70">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>MongoDB</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="90">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>c/c++</h5>
+                </div>
+                <div class="progress-card">
+                    <div class="progress-circle">
+                        <div class="progress-content">
+                            <h5 class="progText" data-count="80">0</h5>
+                        </div>
+                        <div class="progressT"></div>
+                    </div>
+                    <h5>Python</h5>
+                </div>
+            </div>
+
+            <!-- SOFT SKILLS(LEFT) -->
+            <div class="softSkills">
+
+                <div class="progress">
+                    <h2>Soft Skills</h2>
+                    <div class="progress_item">
+                        <h4 class="progress_title">Problem Solving</h4>
+                        <div class="progress_bar">
+                            <div id="bar1" class="bar" data-value="90" data-text="90"></div>
+                        </div>
+                    </div>
+                    <div class="progress_item">
+                        <h4 class="progress_title">Communication</h4>
+                        <div class="progress_bar">
+                            <div id="bar2" class="bar" data-value="95" data-text="95"></div>
+                        </div>
+                    </div>
+                    <div class="progress_item">
+                        <h4 class="progress_title">Creativity</h4>
+                        <div class="progress_bar">
+                            <div id="bar3" class="bar" data-value="100" data-text="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress_item">
+                        <h4 class="progress_title">Team Work</h4>
+                        <div class="progress_bar">
+                            <div id="bar4" class="bar" data-value="80" data-text="80"></div>
+                        </div>
+                    </div>
+                    <div class="progress_item">
+                        <h4 class="progress_title">Leadership</h4>
+                        <div class="progress_bar">
+                            <div id="bar5" class="bar" data-value="70" data-text="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- PROJECTS SECTION -->
+        <section class="projectSection" id="projects">
+            <div class="heading">Projects</div>
+            <div class="outerBox">
+                <div class="project" id="p1" style="background:url(./IMG/img4.jpg); background-size:cover ">
+                    <div class="project-layer">
+                        <h3 class="box-text">Website clone using html and css</h3>
+                        <a href="https://github.com/priti-1227/utilityhub-website-clone.git"target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="p2" style="background:url(./IMG/img2.jpg); background-size:cover">
+                    <div class="project-layer">
+                        <h3 class="box-text">Tic Tac Toe using JavaScript</h3>
+                        <a href="https://priti-1227.github.io/Tic-tac-toe-using-javascript/"target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="p3" style="background:url(./IMG/img3.jpg); background-size:cover">
+                    <div class="project-layer">
+                        <h3 class="box-text">Calculator using JavaScript</h3>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="p4" style="background:url(./IMG/img5.png); background-size:cover">
+                    <div class="project-layer">
+                        <h3 class="box-text">Textutils using ReactJs</h3>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="p5" style="background:url(./IMG/img6.jpg); background-size:cover">
+                    <div class="project-layer">
+                        <h3 class="box-text">To-Do List using JavaScript</h3>
+                        <a href="https://priti-1227.github.io/To-Do-List-using-JavaScript-/"target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+                <div class="project" id="p6" style="background:url(./IMG/img2.jpg); background-size:cover">
+                    <div class="project-layer">
+                        <h3 class="box-text">Tic Tac Toe using JavaScript</h3>
+                        <a href=""><i class="fa-sharp fa-solid fa-up-right-from-square" style="color: #131d30;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contactSection" id="contact">
+            <div class="feedbackForm">
+                <img src="./IMG/astronuat2.png" alt="">
+            </div>
+            <div class="contactForm">
+                <div class="contactInfo">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>Address : <address>Ahemdabad,Gujarat</address></li>
+                        <li>Phone : <a href="tel:+91 7046073566">7046073566</a>.</li>
+                        <li>Email:<br><a href="mailto:priti704607@gmail.com">priti704607@gmail.com</a></li>
+                        <li>Follow Me</li>
+                        <li>
+                            <ul>
+                            <li><a href="https://www.linkedin.com/in/priti-rathore-987683237"target="_blank"><i class="fa-brands fa-linkedin fa-lg" style="color: #0376b0;"></i></a></li>
+                            <li><a href="https://github.com/priti-1227"target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-instagram" style="color: #e6059f;"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-whatsapp" style="color: #47ac11;"></i></li></a></ul>
+                          
+                        </li>
+                    </ul>
+                </div>
+                <div class="contactDetails">
+                    <div class="title">Contact Us</div>
+                    <div class="inputBox"><input type="text" placeholder="Username"></div>
+                    <div class="inputBox"><input type="email" placeholder="Email"></div>
+                    <div class="inputBox"><input type="tel" placeholder="Phone"></div>
+                    <textarea type="text">Message</textarea>
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+
+
+        </section>
+        <footer>
+            <small class="footer-text">&copy;Copyright. All rights reserved.</small>
+        </footer>
+
+    </main>
+
+
+
+
+
+
+    <!-- setup and start animation -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/d970d6e0c8.js" crossorigin="anonymous"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web Developer', 'web Designer', 'MERN stack developer'],
+            typeSpeed: 100,
+        });
+
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
